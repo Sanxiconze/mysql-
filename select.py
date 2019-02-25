@@ -1,8 +1,8 @@
 import pymysql
 connect = pymysql.Connect(
-    host='账号',
+    host='地址',
     port = 3306,
-    user = 'root',
+    user = '账号',
     password = '密码',
     db='数据库',
     #charset = 'utf8'
